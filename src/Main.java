@@ -11,7 +11,7 @@ public class Main {
         if (replenishment < 0) {
             bonus = 0;
         }
-            System.out.println((bonus = replenishment / 100) + "Количество бонусов");
+        System.out.println((bonus = replenishment / 100) + "Количество бонусов");
 
     }
 }
