@@ -8,10 +8,11 @@ public class Main {
         if (replenishment > 1000) {
             bonus = 1;
         }
-        if (replenishment < 0) {
+        if (replenishment < 1000) {
             bonus = 0;
         }
-        System.out.println((bonus = 1100 / 100) + "Количество бонусов");
-        System.out.println((300+1100) + "итоговый счет");
+        System.out.println((replenishment / 100) + "Количество бонусов");
+        bonus = 1100 / 100;
+        System.out.println((startingScore + 1100) + "итоговый счет");
     }
 }
