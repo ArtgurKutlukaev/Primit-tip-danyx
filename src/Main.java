@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int startingScore = 300; // начальный счет
+        int startingScore = 400; // начальный счет
         int replenishment = 1100; // сумма пополнения
         int bonus = 1;            // количество бонусов
 
@@ -11,7 +11,7 @@ public class Main {
         if (replenishment < 0) {
             bonus = 0;
         }
-        System.out.println((bonus = replenishment / 100) + "Количество бонусов");
-
+        System.out.println((bonus = 1100 / 100) + "Количество бонусов");
+        System.out.println((300+1100) + "итоговый счет");
     }
 }
