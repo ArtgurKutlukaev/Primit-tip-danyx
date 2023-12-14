@@ -10,10 +10,10 @@ public class Main {
         int bonus;
         if (replenishment > 1000) {
             bonus = replenishment / 100;
-        } else{
+        } else {
             bonus = 0;
         }
         System.out.println((bonus) + "Количество бонусов");
-        System.out.println((startingScore + replenishment + bonus ) + "итоговый счет");
+        System.out.println((startingScore + replenishment + bonus) + "итоговый счет");
     }
 }
